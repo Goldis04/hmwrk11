@@ -76,6 +76,7 @@ public class TodosTest {
         Task[] actual = todos.findAll();
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouTask() {
         SimpleTask simpleTask = new SimpleTask(5, "Купить Хлеб");
